@@ -9,12 +9,14 @@ The project template offers an example of client side technology stack, featurin
 * Fast JavaScript bundling, using watchify together with browserify
 * Strategy to organize the source code (both JavaScript and LESS), into logical areas
 * Example of client side routing, using [react-router](https://github.com/reactjs/react-router)
-* Example of client side localization
-* Example of integration with [Bootstrap](http://getbootstrap.com/)
-* Example of strategy to display preloaders and error panels
+* Client side localization strategy
+* Integration with [Bootstrap](http://getbootstrap.com/)
+* Strategy to display preloaders and error panels
 * Example of React components definition, using ES6 class
 * Compilation of LESS code into CSS
 * Application wise, declarative and asynchronous forms validation strategy, using [Dataentry](https://github.com/RobertoPrevato/DataEntry)
 
 ## Getting started
-(work in progress...)
+To start using the React-template, either download the source code or use [git clone](https://git-scm.com/docs/git-clone), to clone the repository.
+
+(work in progress..)
