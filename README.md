@@ -8,7 +8,7 @@ The project template offers an example of client side technology stack, featurin
 * Gulp watch task, to monitor files for changes and automatically bundle the code during development
 * Fast JavaScript bundling, using watchify together with browserify
 * Strategy to organize the source code (both JavaScript and LESS), into logical areas
-* Example of client side routing, using [react-router](https://github.com/reactjs/react-router)
+* Client side routing, using [react-router](https://github.com/reactjs/react-router)
 * Client side localization strategy
 * Integration with [Bootstrap](http://getbootstrap.com/)
 * Strategy to display preloaders and error panels
