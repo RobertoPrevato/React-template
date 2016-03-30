@@ -14,7 +14,7 @@ The project template offers an example of client side technology stack, featurin
 * Strategy to display preloaders and error panels
 * Example of React components definition, using ES6 class
 * Compilation of LESS code into CSS
-* Application wise, declarative and asynchronous forms validation strategy, using [Dataentry](https://github.com/RobertoPrevato/DataEntry)
+* Application wide, declarative and asynchronous forms validation strategy, using [Dataentry](https://github.com/RobertoPrevato/DataEntry)
 
 ## Live demo
 A live demo of the React-template application is [available here](http://ugrose.com/content/demos/react-template/index.html).
