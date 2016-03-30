@@ -46,11 +46,11 @@ Which should produce an output like the one of the picture below:
 ***
 
 ### Visiting the demo application
-The code of the React-template demo application is written in such a way to not require a running web server, in order to be visited.
+The code of the React-template demo application does not require a running web server in order to be used.
 It is possible to open and test the demo application by opening the index.html inside the `httpdocs` directly in a browser, like shown in the below picture.
 [![Visiting without server](http://ugrose.com/content/demos/react-template/images/test-without-server.png)](http://ugrose.com/content/demos/react-template/images/test-without-server.png)
 
-In any case, it is recommended to work using a web server, to use a more realistic development environment.
+In any case, it is recommended to work with a web server, to use a more realistic development environment.
 [![Visiting using web server](http://ugrose.com/content/demos/react-template/images/test-with-server.png)](http://ugrose.com/content/demos/react-template/images/test-with-server.png)
 
 The author's recommended way to quickly use a development web server, is to use the Python HttpServer module (requires Python 3 installed):
