@@ -112,7 +112,7 @@ gulp.task("copy-static", function() {
 });
 
 // Runs the tasks for the public area
-gulp.task("public-area", ["clean", "copy-static", "public-less", "public-watch"]);
+gulp.task("public-area", ["clean", "copy-static", "public-less", "public-watch", "watch-less"]);
 
 //deletes the contents of the httpdocs folder
 gulp.task("clean", function (cb) {

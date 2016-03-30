@@ -14,6 +14,9 @@ class GettingStarted extends React.Component {
         <ol>
           <li>NodeJs and its npm (included in NodeJs installers)</li>
           <li>The Gulp task runner (install with command: npm install -g gulp-cli)</li>
+        </ol>
+        <p>Recommended, but not required for testing:</p>
+        <ol>
           <li>Run a development server
             <p>One of these options is recommended:</p>
             <ol>
