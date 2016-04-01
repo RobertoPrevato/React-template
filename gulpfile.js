@@ -1,3 +1,3 @@
-// all gulp tasks are located in the ./build/tasks directory
-// gulp configuration is in files in ./build directory
+// loads all gulp tasks defined in all files found 
+// under the given directory
 require("require-dir")("csbuild/tasks");

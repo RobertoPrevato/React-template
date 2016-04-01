@@ -32,13 +32,11 @@ var MAIN_BUILT  = "main.built.js";
 gulp.task("public-build", function() {
   return browserify(PUBLIC_MAIN)
     .transform(babelify, { presets: ["es2015", "react"] })
-    .bundle() // Create the initial bundle when starting the task
-    //.pipe(sourcemaps.init({loadMaps: true}))
+    .bundle()
     .on("error", function (e) {
       console.log("ERROR", e);
     })
     .pipe(source(MAIN_BUILT))
-    //.pipe(sourcemaps.write("./"))// TODO: how to write source maps in this case?
     .pipe(gulp.dest(PUBLIC_DEST));
 });
 
@@ -99,7 +97,7 @@ gulp.task("public-less", function () {
     .pipe(gulp.dest("httpdocs/styles"));
 });
 
-// Copy httpdocs/scripts/vendor/* to httpdocs/scripts
+// Copies static files to the output folder
 gulp.task("copy-static", function() {
   gulp.src(["cssrc/scripts/libs/**/*.js"])
     .pipe(gulp.dest("httpdocs/scripts/libs"));
@@ -114,7 +112,7 @@ gulp.task("copy-static", function() {
 // Runs the tasks for the public area
 gulp.task("public-area", ["clean", "copy-static", "public-less", "public-watch", "watch-less"]);
 
-//deletes the contents of the httpdocs folder
+// Deletes the contents of the httpdocs folder
 gulp.task("clean", function (cb) {
   del(["httpdocs/*"], cb);
 });

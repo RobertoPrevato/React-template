@@ -10,7 +10,7 @@ class About extends React.Component {
     return (
       <div>
         <h1>About</h1>
-        <p>Version 0.0.1</p>
+        <p>Version 1.0.0</p>
       </div>);
   }
 }
