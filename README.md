@@ -14,7 +14,7 @@ The project template offers an example of client side technology stack, featurin
 * Strategy to display preloaders and error panels
 * Example of React components definition, using ES6 class
 * Compilation of LESS code into CSS
-* Application wise, declarative and asynchronous forms validation strategy, using [Dataentry](https://github.com/RobertoPrevato/DataEntry)
+* Application wide, declarative and asynchronous forms validation strategy, using [Dataentry](https://github.com/RobertoPrevato/DataEntry)
 
 ## Live demo
 A live demo of the React-template application is [available here](http://ugrose.com/content/demos/react-template/index.html).
@@ -54,8 +54,12 @@ In any case, it is recommended to work with a web server, to use a more realisti
 [![Visiting using web server](http://ugrose.com/content/demos/react-template/images/test-with-server.png)](http://ugrose.com/content/demos/react-template/images/test-with-server.png)
 
 The author's recommended way to quickly use a development web server, is to use the Python HttpServer module (requires Python 3 installed):
-* `py 3 -m http.server 44660` (under Windows)
+* `py -3 -m http.server 44660` (under Windows)
 * `python3 -m http.server 44660` (under Linux)
+ 
+Or, using Python 2.x:
+* `py -2 -m SimpleHTTPServer 44660` (under Windows)
+* `python -m SimpleHTTPServer 44660` (under Linux)
 
 ## Documentation
 Detailed documentation is available at the [wiki page](https://github.com/RobertoPrevato/React-template/wiki).
