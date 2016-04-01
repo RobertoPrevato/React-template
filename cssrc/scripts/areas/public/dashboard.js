@@ -24,7 +24,7 @@ class Dashboard extends React.Component {
           <li>Example of client side routing, using react-router</li>
           <li>Example of strategy to display preloaders and error panels</li>
           <li>Example of React components definition, defined using ES6 class</li>
-          <li>Application wise, declarative and asynchronous forms validation strategy</li>
+          <li>Application wide, declarative and asynchronous forms validation strategy</li>
         </ol>
       </div>);
   }
