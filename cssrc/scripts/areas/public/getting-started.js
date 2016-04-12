@@ -21,7 +21,7 @@ class GettingStarted extends React.Component {
             <p>One of these options is recommended:</p>
             <ol>
               <li>Python development server (requires Python 3 installed)<br />
-                <em>py 3 -m http.server 44660 (under Windows)</em><br />
+                <em>py -3 -m http.server 44660 (under Windows)</em><br />
                 <em>python3 -m http.server 44660 (under Linux)</em>
               </li>
               <li>NodeJs development server</li>
