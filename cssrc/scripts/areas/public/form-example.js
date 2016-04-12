@@ -69,7 +69,7 @@ class FormExample extends BaseForm {
         </form>
         <hr />
         <ul>
-          <li><a href="https://github.com/RobertoPrevato/jQuery-DataEntry">Validation plugin source code</a></li>
+          <li><a href="https://github.com/RobertoPrevato/DataEntry">Validation plugin source code</a></li>
           <li>Demo built using <a href="http://getbootstrap.com/">Bootstrap</a> and Icons from <a href="http://glyphicons.com/">Glyphicons</a>.</li>
         </ul>
       </div>);
