@@ -1,7 +1,7 @@
 /**
  * React project template 1.0.0
  * 
- * Copyright 2016, Roberto Prevato
+ * Copyright 2017, Roberto Prevato
  * https://github.com/RobertoPrevato/React-template
  * 
  * Licensed under the MIT license:
