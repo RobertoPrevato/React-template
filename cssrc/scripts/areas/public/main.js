@@ -27,7 +27,7 @@ import { createHashHistory } from "history"
 //
 // remove the stupid `?_k=*` query string from react-router
 // useRouterHistory creates a composable higher-order function
-const appHistory = useRouterHistory(createHashHistory)({ queryKey: false })
+const appHistory = useRouterHistory(createHashHistory)()
 
 import App from "./app"
 import Dashboard from "./dashboard";
